@@ -1,0 +1,42 @@
+body{
+    background-color: yellow;
+    font-family: cursive;
+}
+form{
+    border: 3px solid black;
+}
+input:required{
+    border: 2px groove violet;
+}
+input:not(:required){
+    border: 2px dashed violet;
+}
+input:disabled{
+    border:2px dotted red;
+}
+input:read-only{
+    background-color: grey;
+}
+p{
+    display: none;
+}
+input:hover+p{
+     display: inline;
+     font-family: monospace;
+     background-color: red;
+}
+input:focus{
+    background-color: silver;
+    font-weight: bold;
+}
+input[type="radio"]:checked{
+    width: 20px;
+    height: 20px;
+}
+input[type="radio"]:checked+label{
+    color:red;
+}
+input[type="submit"]
+{
+    border:2px solid violet;
+}

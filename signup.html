@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+    <h2>sign up form</h2>
+    <form action="signup.html">
+        <table>
+            <tr>
+                <td><label>Name:</label></td>
+                <td><input type="text" name="txt" size="15" required><p>Enter the name</p><br></td>
+            </tr>
+            <tr>
+                <td><label>College:</label></td>
+                <td><input type="text" name="clg" size="15" disabled><br></td>
+            </tr>
+            <tr>
+                <td><label>Primary-Email:</label></td>
+                <td><input type="email" name="pemail" size="15" required><p>Enter your email</p><br></td>
+            </tr>
+            <tr>
+                <td><label>Secondary-Email:</label></td>
+                <td><input type="email" name="semail" size="15"><p>Enter your optinal email</p><br></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" name="pwd" size="15" required><p>Enter your password</p></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio" name="gender" value="M"><label>Male</label></td>
+                <td><input type="radio" name="gender" value="F"><label>Female</label></td>
+                <td><input type="radio" name="gender" value="O"><label>Other</label></td>
+            </tr>
+            <tr>
+                <td><label>Age:</label></td>
+                <td><input type="number" name="age" min="18" max="100" size="15"><p>Enter your age</p></td>
+            </tr>
+            <tr>
+                <td><label>MOD:</label></td>
+                <td><input type="text" name="mod" value="online" readonly><p>only online mode available due to covid</p><br></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit"></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
